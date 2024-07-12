@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-catalog",
+  "name": "insta",
   "version": "1.0.0",
   "private": true,
-  "description": "this project is designed as a catalog",
+  "description": "this project is designed as a exercise to help me accustomed to using grid for layout design.",
   "author": "chiba",
   "keywords": [
     "gatsby"

@@ -1,10 +1,12 @@
 import * as React from 'react';
-import styles from './Header.module.css';
+import * as styles from './Header.module.css';
 
-export const Header = () => {
+const Header = () => {
     return (
         <header className={styles.header}>
             
         </header>
     );
 }
+
+export default Header;
