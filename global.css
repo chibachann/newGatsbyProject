@@ -1,0 +1,75 @@
+:root {
+    /* container */
+    --container-max-width: 1140px;
+    --container-padding: 30px 15px;
+
+    /* grid */
+    --grid-columns: repeat(12, 1fr);
+    --grid-gap: 30px;
+    --grid-auto-rows: 5vw;
+
+    --mobile-grid-columns: repeat(4, 1fr); 
+    --mobile-grid-gap: 10px;
+    /* Mobile */
+    --mobile-grid-columns: repeat(4, 1fr);
+    --mobile-grid-gap: 20px;
+    --mobile-container-padding: 30px 36px;
+
+    /* font-family */
+    /* ゴシック体 */
+    --font-family-gothic: "Helvetica Neue", 
+    "Segoe UI", 
+    "Hiragino Kaku Gothic ProN", 
+    "Hiragino Sans", 
+    Meiryo, 
+    sans-serif;
+    /* 明朝体 */
+    --font-family-mincho: "Noto Serif JP", serif;
+    
+    /* color */
+    --color-primary: rgb(20, 20, 24);
+    --color-secondary: #111;
+    --color-text: #fff;
+    --color-text-sub: #9c9c9c;
+    --color-hover-text: gray;
+    --color-box: #7a4171;
+
+    /* font-size */
+    --text-font-size: 1.4vw;
+    --text-font-size-mobile: 3.5vw;
+    --text-font-size-tablet: 2vw;
+
+    --text-line-height: 2.2;
+
+    --link-text-decoration: solid underline;
+    --link-text-underline-offset: 8px;
+    --link-cursor: pointer;
+
+}
+
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-family: var(--font-family-mincho);
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
