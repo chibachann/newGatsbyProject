@@ -1,0 +1,25 @@
+.Seciton {
+    width: 100%;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: var(--grid-columns-sp);
+    grid-auto-rows: var(--grid-rows-sp);
+}
+
+@media (min-width: 561px) {
+    .Grid {
+        grid-template-columns: var(--grid-columns-tb);
+        grid-auto-rows: var(--grid-rows-tb);
+    }
+    
+}
+
+@media (min-width: 1081px) {
+    .Grid {
+        grid-template-columns: var(--grid-columns-pc);
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+    
+}
